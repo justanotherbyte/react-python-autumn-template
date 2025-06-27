@@ -118,3 +118,19 @@ const customer = await getOrCreateCustomer(CUSTOMER_ID);
 - [React Router Documentation](https://reactrouter.com/docs)
 - [Autumn JS](https://github.com/useautumn/autumn-js)
 - [Autumn Py](https://github.com/useautumn/autumn-py)
+
+## Troubleshooting
+
+You may encounter CORS errors if you are running the frontend on a port different to the default one provided in this template. To fix this, change the `backend/app.py` file to include the port your frontend is running on:
+
+```python
+ORIGINS = ["http://localhost:<PORT>"]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=ORIGINS,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+```
