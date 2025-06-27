@@ -24,6 +24,10 @@ cd frontend/
 npm install
 ```
 
+> [!NOTE]
+> Python 3.9+ is required.
+
+
 2. Create an account at [app.useautumn.com](https://app.useautumn.com)
 
 3. Get your Autumn secret key from the [sandbox environment](https://app.useautumn.com/sandbox/dev) and add it to your environment variables:
