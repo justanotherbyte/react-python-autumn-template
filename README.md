@@ -112,5 +112,5 @@ const customer = await getOrCreateCustomer(CUSTOMER_ID);
 
 - [Autumn Documentation](https://docs.useautumn.com)
 - [React Router Documentation](https://reactrouter.com/docs)
-- [Autumn JS Documentation](https://autumnjs.com/docs)
-- [Autumn Py Documentation](https://github.com/useautumn/autumn-py)
+- [Autumn JS](https://github.com/useautumn/autumn-js)
+- [Autumn Py](https://github.com/useautumn/autumn-py)
