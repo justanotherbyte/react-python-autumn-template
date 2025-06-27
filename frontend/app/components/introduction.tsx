@@ -39,7 +39,7 @@ export default function Intro() {
               >
                 here
               </a>{" "}
-              and add it to the .env.local file
+              and add it to your environment variables.
             </span>
           </li>
           <li className="flex items-center gap-2">
