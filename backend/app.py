@@ -27,7 +27,7 @@ async def identify(request: Request) -> AutumnIdentifyData:
     }
 
 
-autumn = AutumnASGI(token=os.environ["AUTUMN_KEY"], identify=identify)
+autumn = AutumnASGI(token=os.environ["AUTUMN_SECRET_KEY"], identify=identify)
 
 
 @contextlib.asynccontextmanager
